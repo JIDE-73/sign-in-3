@@ -1,0 +1,103 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.login-container {
+  width: 350px; /* Tamaño del cuadro ajustado */
+  background-color: #d3d3d3;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid #b0b0b0; /* Borde resaltado */
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px; /* Separación del borde superior derecho */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.right-section {
+  width: 100%;
+}
+
+.right-section h2 {
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: calc(100% - 20px); /* Ancho ajustado para margen simétrico */
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-left: 10px; /* Margen izquierdo para centrar */
+}
+
+button {
+  width: 75%; /* Ancho reducido del botón */
+  padding: 10px;
+  background-color: #555555;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto; /* Centrado */
+}
+
+button:hover {
+  background-color: #444444;
+}
+
+.update-password {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.update-password a {
+  color: #555555;
+  text-decoration: none;
+}
+
+.update-password a:hover {
+  text-decoration: underline;
+}
